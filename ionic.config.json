@@ -1,0 +1,7 @@
+{
+  "name": "ti41-blank",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
