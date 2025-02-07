@@ -1,0 +1,15 @@
+<p>
+  <ion-list>
+    <ion-item>
+      <ion-input label="User" [formControl]="user"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" label="Password" value="" [formControl]="password">
+        <ion-input-password-toggle slot="end"></ion-input-password-toggle>
+      </ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="login()">Login</ion-button>
+</p>
